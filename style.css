@@ -1,0 +1,86 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 30px 50px;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.userImg {
+    width: 60%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateY(-10px);
+}
+
+.userInfo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.cardUser {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0;
+    margin: 20px;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+.cardUser:hover {
+    transform: translateY(-4px);
+    transition: ease-in-out 0.2s;
+}
+
+.firstName {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.lastName {
+    display: inline-block;
+    margin: 0 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.containerBtn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.pageNumber {
+    margin-right: 5px;
+    padding: 5px;
+}
